@@ -7,6 +7,6 @@ import (
 func main() {
 
 	fmt.Printf("Hello and welcome,")
-	fmt.Println("have added workflow")
+	fmt.Println("have added workflow...")
 
 }
