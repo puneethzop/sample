@@ -12,7 +12,7 @@ on:
       - main
       - workflow # Also trigger on pull requests to the 'workflow' branch
 
-# A workflow run is made up of one or more jobs.
+# A workflow run is made up of one or more job.
 jobs:
   build:
     runs-on: ubuntu-latest
