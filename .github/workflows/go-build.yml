@@ -6,9 +6,11 @@ on:
   push:
     branches:
       - main # Trigger on pushes to the main branch
+      - workflow # Also trigger on pushes to the 'workflow' branch (newly added for your practice!)
   pull_request:
     branches:
       - main
+      - workflow # Also trigger on pull requests to the 'workflow' branch
 
 # A workflow run is made up of one or more jobs.
 jobs:
