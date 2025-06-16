@@ -27,4 +27,5 @@ jobs:
         run: go mod tidy
 
       - name: Build Go application
-        run: go build -v -o sample-app ./... # Output executable named 'sample-app'
+        run: |
+          CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -buildvcs=false -o main
